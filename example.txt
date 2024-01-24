@@ -1,0 +1,289 @@
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { EffectCards } from 'swiper/modules';
+import logo_mondelez from "../images/Logo Mondelez.svg";
+
+import 'swiper/css';
+import 'swiper/css/effect-cards';
+
+import '../css/General.css';
+
+function General() {
+
+
+  return (
+    <div className='General'>
+      <Swiper
+        effect={'cards'}
+        grabCursor={true}
+        modules={[EffectCards]}
+        className="mySwiper"
+      >
+        <SwiperSlide className='slider-center'>
+          <img src={logo_mondelez} className='logo_mondelez' alt="" />
+          <h3>Material de consulta</h3>
+        </SwiperSlide>
+        <SwiperSlide className='divisor dv_1'>
+          <h3>Definiciones Generales </h3>
+        </SwiperSlide>
+        <SwiperSlide>
+          <h3>Los 10 principios de los compradores</h3>
+
+          <ol>
+            <li>Las misiones de compra conducen a las personas a las tiendas, no las marcas.</li>
+            <li>Las personas no tienen una ruta ni pasan por todos los pasillos.</li>
+            <li>70% de las decisiones de compra suceden en las tiendas.</li>
+            <li>Si no pueden encontrar el producto, no pueden llevarlo.</li>
+            <li>Las personas confían en el color y la forma para encontrar lo que necesitan.</li>
+            <li>Las personas ignoran la mayoría de lo que ven.</li>
+            <li>Las personas compran una y otra vez una marca que conocen y confían en ella.</li>
+            <li>La impulsividad se genera en la mente del comprador, no en el producto o canal.</li>
+            <li>Si no tienen contacto con el producto, no van a llevarlo.</li>
+            <li>Nuestro cerebro procesa más eficientemente imágenes que palabras.</li>
+          </ol>
+
+        </SwiperSlide>
+        <SwiperSlide>
+          <h3>Definiciones básicas de negocio perfecto</h3>
+
+          <h4>¿Qué es negocio perfecto?</h4>
+          <p className='text-slider'><b>Proceso</b> que nos permite revolucionar las ventas a través de la ejecución ubicando los productos correctos en el lugar correcto. Porque no solo es importante estar en el punto de venta sino estar de la forma adecuada.</p>
+
+          <h4>¿Qué beneficios trae consigo?</h4>
+          <p className='text-slider'>El comprador podrá encontrar sus productos favoritos, debido a que facilitamos la misión de compra, generando lealtad hacia el negocio acciones que resultan en un crecimiento de ventas y categorías.</p>
+
+          <h4>¿Qué buscamos?</h4>
+          <p className='text-slider'>Satisfacer, comprender y vincular las perspectivas de las tres partes interesadas para tener éxito.</p>
+
+        </SwiperSlide>
+
+        <SwiperSlide className='divisor dv_1'>
+          <h3>Ambiente de compra</h3>
+        </SwiperSlide>
+
+        <SwiperSlide>
+
+          <h4>¿Qué es una misión de compra?</h4>
+          <p className='text-slider'>Es la razón original por la cual una persona realiza una compra, existen 3 tipos: (Pequeña, Mediana y Grande)</p>
+
+          <h4>¿Qué es un ambiente de compra?</h4>
+          <p className='text-slider'>Puntos de venta y consumo con misiones o razones de compra similares que atienden diferentes necesidades de los compradores.</p>
+
+        </SwiperSlide>
+        <SwiperSlide>
+          <h3>Ambientes de compra en Colombia </h3>
+          <p className='text-slider'><i>imagenTabla1.svg</i></p>
+        </SwiperSlide>
+        <SwiperSlide>
+          <h3>Ambientes de compra en Colombia </h3>
+          <p className='text-slider'><i>imagenTabla2.svg</i></p>
+        </SwiperSlide>
+        <SwiperSlide>
+          <h3>Ambientes de compra en Colombia </h3>
+          <p className='text-slider'><i>imagenTabla3.svg</i></p>
+        </SwiperSlide>
+        <SwiperSlide>
+          <h3>Ambientes de compra en Colombia </h3>
+          <p className='text-slider'><i>imagenTabla4.svg</i></p>
+        </SwiperSlide>
+        <SwiperSlide>
+          <h3>Ambientes de compra en Colombia </h3>
+          <p className='text-slider'><i>imagenTabla5.svg</i></p>
+        </SwiperSlide>
+
+        <SwiperSlide className='divisor dv_1'>
+          <h3>Las 5S</h3>
+          <h6>(Procesos de compra)</h6>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <p className='text-slider'><i>infografiaHorizontal.svg</i></p>
+        </SwiperSlide>
+
+        <SwiperSlide className='divisor dv_1'>
+          <h3>Las 5P</h3>
+          <h6>(Variables en ejecución)</h6>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <p className='text-slider'>Estas son herramientas presentes en el punto de venta que nos permiten incentivar cada fase de las conductas de compra hacia nuestros productos</p>
+        </SwiperSlide>
+
+        <SwiperSlide className='divisor dv_4'>
+          <h6>Primera P:</h6>
+          <h3>Producto</h3>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <h3>Producto</h3>
+          <p>Corresponde a todo el portafolio que se vende en un punto de venta, se clasifica en:</p>
+          <ul>
+            <li><b>Productos infaltables MSL:</b> El listado de productos infaltables contiene nuestros productos más vendidos y de mayor rotación, por lo cual, siempre deben estar disponibles y claramente visibles para el comprador. (Existe uno para cada ambiente de compra).</li>
+            <li><b>Nuevos productos NPD:</b>  Productos de lanzamiento e innovaciones en el portafolio.</li>
+            <li><b>Productos sugeridos:</b> Listado de productos que se encuentran por fuera del MSL.</li>
+          </ul>
+
+        </SwiperSlide>
+
+        <SwiperSlide className='divisor dv_4'>
+          <h6>Segunda P:</h6>
+          <h3>Posición</h3>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <h3>Posición</h3>
+          <p>Dentro del punto de venta podemos encontrar dos pociones descritas a continuación:</p>
+          <ul>
+            <li>Hot Zone</li>
+            <li>Back Zone</li>
+          </ul>
+        </SwiperSlide>
+
+        <SwiperSlide className='divisor dv_3'>
+          <h6>Posición:</h6>
+          <h3>Hot Zone</h3>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <h3>Hot Zone</h3>
+          <p>Corresponde a los puntos de pago, donde categorizamos 3 espacios:</p>
+          <ul>
+            <li><b>ORO:</b> Zona más importante del HZ, la más accesible a las manos y donde se realiza el pago.</li>
+            <li><b>PLATA:</b> Ubicación más extensa no es la mejor ubicación, pero está en línea de visión del comprador.</li>
+            <li><b>BRONCE:</b> A la espalda del comprador o debajo de la cintura.</li>
+          </ul>
+          <p className='text-slider'><i>imagenIlustrativa.svg</i></p>
+
+        </SwiperSlide>
+
+        <SwiperSlide className='divisor dv_3'>
+          <h6> Hot Zone:</h6>
+          <h3>Arboles de decisión</h3>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <p className='text-slider'>El árbol de decisión y momentos de consumo son la base para organizar el planograma de la categoría, ya que ordena el recorrido de decisiones del shopper de la más prioritaria a la menor</p>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <p className='text-slider'><i>imagenTabla1.svg</i></p>
+        </SwiperSlide>
+        <SwiperSlide>
+          <p className='text-slider'><i>imagenTabla2.svg</i></p>
+        </SwiperSlide>
+        <SwiperSlide>
+          <p className='text-slider'><i>imagenTabla3.svg</i></p>
+        </SwiperSlide>
+
+        <SwiperSlide className='divisor dv_3'>
+          <h6> Hot Zone:</h6>
+          <h3>Pilares de ejecución</h3>
+        </SwiperSlide>
+
+       <SwiperSlide>
+          <p className='text-slider'><i>imagenTabla1.svg</i></p>
+        </SwiperSlide>
+
+        <SwiperSlide className='divisor dv_2'>
+          <h6>Posición:</h6>
+          <h3>Back Zone</h3>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <h3>Back Zone</h3>
+          <p>Corresponde al resto de la tienda diferente al puesto de pago o Checkout y a su vez se divide en dos zonas:</p>
+
+        </SwiperSlide>
+
+        <SwiperSlide className='divisor dv_2'>
+          <h6>Back Zone:</h6>
+          <h3>Arboles de decisión</h3>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <p className='text-slider'><i>imagenTabla3.svg</i></p>
+        </SwiperSlide>
+
+        <SwiperSlide className='divisor dv_2'>
+          <h6>Back Zone:</h6>
+          <h3>Exhibiciones Primarias</h3>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <p className='text-slider'>Es la ubicación donde se exhibe una categoría por naturaleza.</p>
+          <p className='text-slider'><i>imagenPilarDeExhibicion1.svg</i></p>
+          <p className='text-slider'><i>imagenPilarDeExhibicion2.svg</i></p>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <p className='text-slider'><i>imagenPilarDeExhibicion3.svg</i></p>
+          <p className='text-slider'><i>imagenPilarDeExhibicion4.svg</i></p>
+        </SwiperSlide>
+
+        <SwiperSlide className='divisor dv_2'>
+          <h6>Back Zone:</h6>
+          <h3>Exhibiciones Secundarias</h3>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <h3>Exhibiciones Secundarias</h3>
+          <p className='text-slider'> Exhibición temporal o permanente donde se ubica nuestra categoría fuera de la exhibición primaria.</p>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <h3>Pilares de ejecución exhibiciones secundaria</h3>
+          <p className='text-slider'><i>imagenPilarDeExhibicion1.svg</i></p>
+          <p className='text-slider'><i>imagenPilarDeExhibicion2.svg</i></p>
+          <p className='text-slider'><i>imagenPilarDeExhibicion3.svg</i></p>
+          <p className='text-slider'><i>imagenPilarDeExhibicion4.svg</i></p>
+          <p className='text-slider'><i>imagenPilarDeExhibicion5.svg</i></p>
+        </SwiperSlide>
+
+         <SwiperSlide className='divisor dv_4'>
+          <h6>Tercera P:</h6>
+          <h3>Precio</h3>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <h3>Precio</h3>
+          <p className='text-slider'>Consiste en el valor a pagar por el comprador para adquirir el producto, este valor debe encontrarse correctamente marcado en el punto de venta garantizando su visibilidad.</p>
+        </SwiperSlide>
+
+        <SwiperSlide className='divisor dv_4'>
+          <h6>Cuarta P:</h6>
+          <h3>Promociones</h3>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <h3>Promociones</h3>
+          <p className='text-slider'>Acciones que promueven un valor agregado al producto incentivando su venta y atractivo para el comprador.</p>
+        </SwiperSlide>
+
+        <SwiperSlide className='divisor dv_4'>
+          <h6>Quinta P:</h6>
+          <h3>POB Comunicación</h3>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <h3>POB Comunicación</h3>
+          <p className='text-slider'>Corresponde a los materiales que comunican las campañas realizadas por cada una de las marcas, asimismo, los materiales que promuevan las personalidades de las marcas.</p>
+        </SwiperSlide>
+
+        <SwiperSlide className='divisor dv_1'>
+          <h3>Imagen o foto de éxito</h3>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <p className='text-slider'>Es la herramienta y guía que nos muestra la ejecución de las 5P’s en todos los ambientes de compra de acuerdo con las necesidades de nuestros compradores para incrementar nuestras ventas. En resumen, es nuestra fotografía de cómo debe verse la tienda perfecta por ambiente de compra.</p>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <p className='text-slider'><i>imagenDeExitoHorizontal.svg</i></p>
+        </SwiperSlide>
+
+      </Swiper >
+    </div >
+
+  )
+}
+
+export default General

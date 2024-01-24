@@ -1,0 +1,15 @@
+.Clic{
+  width: 100%;
+  /* height: 1rem; */
+  padding: 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Mondelez-Regular";
+  color: #00000f;
+  background: #fffffe;
+}
+
+.Clic p{
+  margin: 0;
+}
