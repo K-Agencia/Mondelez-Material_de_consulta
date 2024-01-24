@@ -1,6 +1,8 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCards } from 'swiper/modules';
 import Regresar from '../components/Regresar';
+import Imagenes from '../components/Imagenes';
+import { Images } from '../images/Images';
 
 const HotZone = () => {
   return (
@@ -12,7 +14,7 @@ const HotZone = () => {
         className="mySwiper"
       >
 
-        <SwiperSlide className='divisor dv_3'>
+        <SwiperSlide className='divisor dv_1'>
           <h6>Posición:</h6>
           <h3>Hot Zone</h3>
           <div className="text-slider-header">
@@ -29,7 +31,7 @@ const HotZone = () => {
           <p className='text-slider'><i>imagenIlustrativa.svg</i></p>
         </SwiperSlide>
 
-        <SwiperSlide className='divisor dv_3'>
+        <SwiperSlide className='divisor dv_1'>
           <h6> Hot Zone:</h6>
           <h3>Arboles de decisión</h3>
           <div className="text-slider-header">
@@ -47,13 +49,18 @@ const HotZone = () => {
           <p className='text-slider'><i>imagenTabla3.svg</i></p>
         </SwiperSlide>
 
-        <SwiperSlide className='divisor dv_3'>
+        <SwiperSlide className='divisor dv_1'>
           <h6> Hot Zone:</h6>
           <h3>Pilares de ejecución</h3>
         </SwiperSlide>
 
         <SwiperSlide>
-          <p className='text-slider'><i>imagenTabla1.svg</i></p>
+          {/* <Imagenes src={Images.Pilares_ejecucion.PE_estantes_de_mejor_venta} width={"100%"} height={"100%"} /> */}
+          {/* <Imagenes src={Images.Pilares_ejecucion.PE_bloques_de_marca} width={"100%"} height={"100%"} /> */}
+        </SwiperSlide>
+        <SwiperSlide>
+          {/* <Imagenes src={Images.Pilares_ejecucion.PE_frentear_productos} width={"100%"} height={"100%"} /> */}
+          {/* <Imagenes src={Images.Pilares_ejecucion.PE_evitar_puntos_ciegos} width={"100%"} height={"100%"} /> */}
         </SwiperSlide>
 
         <SwiperSlide className='divisor dv_back'>

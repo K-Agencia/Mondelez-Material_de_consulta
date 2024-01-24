@@ -54,11 +54,11 @@ const Las5P = () => {
         </SwiperSlide>
 
         <SwiperSlide className='divisor'>
-          <Link to={RoutersLinks.HotZone} className='content-swiper dv_3'>
+          <Link to={RoutersLinks.HotZone} className='content-swiper dv_1'>
             <h3>Hot Zone</h3>
           </Link>
 
-          <Link to={RoutersLinks.BackStore} className='content-swiper dv_2'>
+          <Link to={RoutersLinks.BackStore} className='content-swiper dv_5'>
             <h3>Back Store</h3>
           </Link>
 

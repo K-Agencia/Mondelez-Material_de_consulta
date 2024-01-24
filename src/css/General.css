@@ -61,6 +61,11 @@ body {
   background: #D30000;
 }
 
+.swiper-slide.dv_5,
+.swiper-slide .dv_5  {
+  background: #4F2170;
+}
+
 .swiper-slide.dv_back {
   background: #00000f;
 }
@@ -174,19 +179,22 @@ b {
   font-size: 0.8rem;
   text-align: left;
   letter-spacing: 0px;
-  color: #00000f;
-  background: #f7f7f7;
+  color: #f7f7f7;
+  /* background: #f7f7f7; */
 }
 
 .color-oro {
+  color: #00000f;
   background: #efb810;
 }
 
 .color-plata {
+  color: #00000f;
   background: #e3e4e5;
 }
 
 .color-bronce {
+  color: #00000f;
   background: #bf8970;
 }
 

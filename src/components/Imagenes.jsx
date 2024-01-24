@@ -1,9 +1,9 @@
 import '../css/Imagenes.css';
 
-const Imagenes = ({ src, width = 200, height = 200 }) => {
+const Imagenes = ({ src}) => {
   return (
     <div className='Imagenes'>
-      <img src={src} alt="" width={width} height={height} />
+      <img src={src} />
     </div>
   );
 };

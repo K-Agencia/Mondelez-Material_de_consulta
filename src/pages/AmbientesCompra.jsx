@@ -2,6 +2,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCards } from 'swiper/modules';
 
 import Regresar from '../components/Regresar';
+import Imagenes from '../components/Imagenes';
+import { Images } from '../images/Images';
 
 const AmbientesCompra = () => {
   return (
@@ -26,25 +28,25 @@ const AmbientesCompra = () => {
           <p className='text-slider'>Puntos de venta y consumo con misiones o razones de compra similares que atienden diferentes necesidades de los compradores.</p>
 
         </SwiperSlide>
+
         <SwiperSlide>
-          <h3 className='title tl_2'>Ambientes de compra en Colombia </h3>
-          <p className='text-slider'><i>imagenTabla1.svg</i></p>
+          <Imagenes src={Images.Ambientes_de_compra.Hipermecados} />
         </SwiperSlide>
+
         <SwiperSlide>
-          <h3 className='title tl_2'>Ambientes de compra en Colombia </h3>
-          <p className='text-slider'><i>imagenTabla2.svg</i></p>
+          <Imagenes src={Images.Ambientes_de_compra.Supermercados} />
         </SwiperSlide>
+
         <SwiperSlide>
-          <h3 className='title tl_2'>Ambientes de compra en Colombia </h3>
-          <p className='text-slider'><i>imagenTabla3.svg</i></p>
+          <Imagenes src={Images.Ambientes_de_compra.C_Store} />
         </SwiperSlide>
+
         <SwiperSlide>
-          <h3 className='title tl_2'>Ambientes de compra en Colombia </h3>
-          <p className='text-slider'><i>imagenTabla4.svg</i></p>
+          <Imagenes src={Images.Ambientes_de_compra.Tienda_de_descuento} />
         </SwiperSlide>
+
         <SwiperSlide>
-          <h3 className='title tl_2'>Ambientes de compra en Colombia </h3>
-          <p className='text-slider'><i>imagenTabla5.svg</i></p>
+          <Imagenes src={Images.Ambientes_de_compra.Chas_carry} />
         </SwiperSlide>
 
         <SwiperSlide className='divisor dv_back'>

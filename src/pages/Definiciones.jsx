@@ -53,7 +53,7 @@ const Definiciones = () => {
         <SwiperSlide>
           <h5>¿Qué buscamos?</h5>
           <p className='text-slider'>Satisfacer, comprender y vincular las perspectivas de las tres partes interesadas para tener éxito.</p>
-          <Imagenes src={Images.Definiciones.circuito} width={"100%"} height={"100%"} />
+          <Imagenes src={Images.Definiciones.circuito} width={"300"} height={"300"} />
         </SwiperSlide>
 
         <SwiperSlide className='divisor dv_back'>

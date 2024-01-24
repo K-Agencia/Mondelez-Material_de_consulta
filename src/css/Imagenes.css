@@ -1,6 +1,48 @@
-.Imagenes {
+.Definiciones .Imagenes {
   width: auto;
   height: auto;
   margin: 10px auto;
-  /* padding: 0 1.5em; */
+}
+
+.Definiciones .Imagenes img {
+  width: 300px;
+  height: 300px;
+}
+
+.AmbientesCompra .Imagenes {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.AmbientesCompra .Imagenes img {
+  height: 90%;
+}
+
+.BackStore .Imagenes,
+.HotZone .Imagenes {
+  width: 100%;
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.BackStore .Imagenes img,
+.HotZone .Imagenes img {
+  width: 100%;
+}
+
+.ImagenExito .Imagenes {
+  width: 100%;
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ImagenExito .Imagenes img {
+  width: 90%;
 }
