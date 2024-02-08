@@ -28,25 +28,22 @@ const HotZone = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-          <p className='text-slider'><i>imagenIlustrativa.svg</i></p>
+          <Imagenes src={Images.HotZone.arbol} width={"100%"} height={"100%"} />
         </SwiperSlide>
 
         <SwiperSlide className='divisor dv_1'>
           <h6> Hot Zone:</h6>
           <h3>Arboles de decisión</h3>
-          <div className="text-slider-header">
-            <p className='text-slider'>El árbol de decisión y momentos de consumo son la base para organizar el planograma de la categoría, ya que ordena el recorrido de decisiones del shopper de la más prioritaria a la menor</p>
-          </div>
         </SwiperSlide>
 
         <SwiperSlide>
-          <p className='text-slider'><i>imagenTabla1.svg</i></p>
+          <Imagenes src={Images.HotZone.gums_and_candies} width={"100%"} height={"100%"} />
         </SwiperSlide>
         <SwiperSlide>
-          <p className='text-slider'><i>imagenTabla2.svg</i></p>
+          <Imagenes src={Images.HotZone.chocolate} width={"100%"} height={"100%"} />
         </SwiperSlide>
         <SwiperSlide>
-          <p className='text-slider'><i>imagenTabla3.svg</i></p>
+          <Imagenes src={Images.HotZone.biscuits} width={"100%"} height={"100%"} />
         </SwiperSlide>
 
         <SwiperSlide className='divisor dv_1'>
@@ -55,12 +52,15 @@ const HotZone = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-          {/* <Imagenes src={Images.Pilares_ejecucion.PE_estantes_de_mejor_venta} width={"100%"} height={"100%"} /> */}
-          {/* <Imagenes src={Images.Pilares_ejecucion.PE_bloques_de_marca} width={"100%"} height={"100%"} /> */}
+          <Imagenes src={Images.HotZone.surtido} width={"100%"} height={"100%"} />
         </SwiperSlide>
+
         <SwiperSlide>
-          {/* <Imagenes src={Images.Pilares_ejecucion.PE_frentear_productos} width={"100%"} height={"100%"} /> */}
-          {/* <Imagenes src={Images.Pilares_ejecucion.PE_evitar_puntos_ciegos} width={"100%"} height={"100%"} /> */}
+          <Imagenes src={Images.HotZone.ubicación} width={"100%"} height={"100%"} />
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <Imagenes src={Images.HotZone.consistencia} width={"100%"} height={"100%"} />
         </SwiperSlide>
 
         <SwiperSlide className='divisor dv_back'>

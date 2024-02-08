@@ -1,0 +1,11 @@
+.Las5S .Imagenes {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Las5S .Imagenes img {
+  height: auto;
+  width: 100%;
+}

@@ -51,7 +51,7 @@ function General() {
         </SwiperSlide>
 
         <SwiperSlide className='divisor dv_back'>
-          <Regresar />
+          <Regresar url='https://es-mdlz.col1.co/' />
         </SwiperSlide>
 
       </Swiper >

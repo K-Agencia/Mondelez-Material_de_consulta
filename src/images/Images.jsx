@@ -12,7 +12,6 @@ import C_Store from "./Ambientes_de_compra/C-Store.jpg";
 import Tienda_de_descuento from "./Ambientes_de_compra/Tienda-de-descuento.jpg";
 import Chas_carry from "./Ambientes_de_compra/Chas_carry.jpg";
 
-
 import PE_estantes_de_mejor_venta from "./Pilares_ejecucion/01-estantes-de-mejor-venta.jpg";
 import PE_bloques_de_marca from "./Pilares_ejecucion/02-bloques-de-marca.jpg";
 import PE_frentear_productos from "./Pilares_ejecucion/03-frentear-productos.jpg";
@@ -22,6 +21,16 @@ import IE_exito from "./Foto_exito/Imagen-o-foto-de-exito.jpg";
 import IE_exito2 from "./Foto_exito/Imagen-o-foto-de-exito2.jpg";
 
 import BS_Arbol_descision from "./BS_Arbol_descision/arboles-de-decision.jpg";
+
+import consistencia from "./Hot_zone/07_consistencia.jpg";
+import arbol from "./Hot_zone/arbol.jpg";
+import gums_and_candies from "./Hot_zone/02_gums_and_candies.jpg";
+import chocolate from "./Hot_zone/03_chocolate.jpg";
+import biscuits from "./Hot_zone/04_biscuits.jpg";
+import surtido from "./Hot_zone/05_surtido.jpg";
+import ubicación from "./Hot_zone/06_ubicación.jpg";
+
+import infografia_5s from "./Proceso_de_compra_5s.png";
 
 export const Images = {
   Definiciones: {
@@ -55,5 +64,15 @@ export const Images = {
   },
   Back_Store: {
     BS_Arbol_descision
-  }
+  },
+  HotZone: {
+    consistencia,
+    arbol,
+    gums_and_candies,
+    chocolate,
+    biscuits,
+    surtido,
+    ubicación,
+  },
+  infografia_5s
 }
